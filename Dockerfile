@@ -1,11 +1,11 @@
 FROM ubuntu:latest
 
-COPY . /php-dev/
-
 RUN apt-get update
 RUN apt-get install -y git python-software-properties php5 php5-curl php5-mcrypt
 
 RUN php5enmod mcrypt
+
+COPY . /php-dev/
 
 WORKDIR /php-dev/
 

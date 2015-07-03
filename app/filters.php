@@ -13,7 +13,7 @@
 
 App::before(function($request)
 {
-	App::abort(403, 'You aren\'t doing it right.');
+	//App::abort(403, 'You aren\'t doing it right.');
 });
 
 
