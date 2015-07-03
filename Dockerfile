@@ -14,4 +14,4 @@ RUN php composer.phar install
 
 EXPOSE 8000
 
-RUN php artisan serve --host 0.0.0.0
+ENTRYPOINT ["php", "artisan", "serve", "--host",  "0.0.0.0"]
