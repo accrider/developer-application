@@ -29,7 +29,7 @@
 			<div role="alert" class="alert alert-danger">{{ $error }}</div>
 		@endif
 
-		{{ Form::open([ 'route' => 'app.submit', 'method' => 'get', 'role' => 'form', 'files' => true ]) }}
+		{{ Form::open([ 'route' => 'app.submit', 'method' => 'post', 'role' => 'form', 'files' => true ]) }}
 
 		<fieldset>
 			<legend>Personal Details</legend>
