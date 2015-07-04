@@ -23,9 +23,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'appdb',
-			'username'  => 'root',
-			'password'  => 'root',
+			'database'  => 'testdb',
+			'username'  => 'test',
+			'password'  => 'test',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
